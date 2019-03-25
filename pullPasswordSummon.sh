@@ -18,8 +18,7 @@ summon_interactive(){
   printf "Using api: $api\n"
   printf "Using account: $account"
   printf "\n"
-  pause 'Press [ENTER] key to continue...'
-  printf "\nGrabbing secret aws_access_key: $aws_secret"
+  printf "\nGrabbing secret: $secret"
 }
 
 main
